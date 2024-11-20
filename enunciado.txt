@@ -1,0 +1,20 @@
+la empresa mac necesita implementar 2 modulos: purchases y payment methods, se requiere la implementacion para procesar pagos
+y y llevar un control de ventas, deben establecer las relaciones entre ambas entidades para garantizar la normalizacion y evitar 
+reduncdancia de datos.
+
+las caracterizticas de las entidades son:
+-Purchase entity
+    payment_Method_ID
+    Status Enum
+-Payment method entity
+    paymentMethod
+
+Purchase Status
+    CREATED
+    MODIFIED
+    PENDING_APPROBVAL
+    APPROVED
+    IN_PROCESS
+    PROCESSED
+    REJECTED
+    CANCELED
