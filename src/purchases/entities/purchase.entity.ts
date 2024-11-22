@@ -1,23 +1,18 @@
-import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, EntitySchemaEmbeddedColumnOptions } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column, ManyToOne } from 'typeorm';
 import { PaymentMethod } from '../../PaymentMethods/entities/paymentMethod.entity';
-import { PurchaseStatus } from '../../common/enums/purchase-status.enum'; 
+import { CustomerEntity } from '../../customers/entities/customers.entity';
 
-
-@Entity()
+@Entity('purchases')
 export class Purchase {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @Column('decimal', { precision: 10, scale: 2 })
-  amount: number;
-
-  @Column({
-    type: 'enum',
-    enum: PurchaseStatus,
-    default: PurchaseStatus.CREATED,
-  })
-  status: PurchaseStatus;
-
   @ManyToOne(() => PaymentMethod, (paymentMethod) => paymentMethod.purchases)
   paymentMethod: PaymentMethod;
+
+  @ManyToOne(() => CustomerEntity, (customer) => customer.purchases)
+  customer: CustomerEntity;
+
+  @Column({ type: 'enum', enum: ['CREATED', 'APPROVED', 'REJECTED'], default: 'CREATED' })
+  status: string;
 }

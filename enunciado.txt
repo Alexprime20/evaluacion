@@ -1,20 +1,68 @@
-la empresa mac necesita implementar 2 modulos: purchases y payment methods, se requiere la implementacion para procesar pagos
-y y llevar un control de ventas, deben establecer las relaciones entre ambas entidades para garantizar la normalizacion y evitar 
-reduncdancia de datos.
+tu quierre mi pinga en tu culo, es que tu quieres conmingo
 
-las caracterizticas de las entidades son:
--Purchase entity
-    payment_Method_ID
-    Status Enum
--Payment method entity
-    paymentMethod
+maria puta dame el empate anted de que me mate, ME QUIERO MORIIIRRRRRRR
 
-Purchase Status
-    CREATED
-    MODIFIED
-    PENDING_APPROBVAL
-    APPROVED
-    IN_PROCESS
-    PROCESSED
-    REJECTED
-    CANCELED
+mami yo te estaba viendo y tienes todo bueno asi que dime como hacemos pa meterte el webo, tienes culo tienes tetas tienes papo lo deseo,
+te la tiras de exquisita y te encanta el malandreo, yo si te soy sincero y no es mentira, se muy bien lo que te gusta y te exita, 
+que paso sete aguo el guarapo? cuendo hacemos caballito se te moja el papo
+
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala arremangala arrepujala 
+
+
+
+
+La empresa mac implemento el modulo purchase y paymentmethod, y tambien establecion las relaciones entre ellas. 
+ahora la empresa demanda que tambien se impolemente el modulo Custome y establecer la relacion con purchases

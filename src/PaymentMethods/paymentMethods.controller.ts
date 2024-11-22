@@ -1,22 +1,35 @@
-import { Controller, Post, Patch, Param, Body } from '@nestjs/common';
-import { PaymentMethodService } from '../PaymentMethods/paymentMethods.service';
-import { CreatePaymentMethodDto } from '../PaymentMethods/dto/create-paymentMethods.dto';
-import { UpdatePaymentMethodDto } from '../PaymentMethods/dto/update-paymentMethods.dto';
+import { Controller, Get, Post, Body, Patch, Param, Delete, Query } from '@nestjs/common';
+import { PaymentMethodService } from './paymentMethods.service';
+import { CreatePaymentMethodDto } from './dto/create-paymentMethods.dto';
+import { UpdatePaymentMethodDto } from './dto/update-PaymentMethods.dto';
+import { PaginationDto } from '../common/dtos/pagination/pagination.dto';
 
-@Controller('payment-methods')
+@Controller('paymentMethods')
 export class PaymentMethodController {
   constructor(private readonly paymentMethodService: PaymentMethodService) {}
 
   @Post()
-  async createPaymentMethod(@Body() createPaymentMethodDto: CreatePaymentMethodDto) {
-    return this.paymentMethodService.createPaymentMethod(createPaymentMethodDto);
+  create(@Body() createPaymentMethodDto: CreatePaymentMethodDto) {
+    return this.paymentMethodService.create(createPaymentMethodDto);
+  }
+
+  @Get()
+  findAll( @Query() paginationDto: PaginationDto ) {
+    return this.paymentMethodService.findAll( paginationDto );
+  }
+
+  @Get(':id')
+  findOne(@Param('id') id: string) {
+    return this.paymentMethodService.findOne(id);
   }
 
   @Patch(':id')
-  async updatePaymentMethod(
-    @Param('id') id: number,
-    @Body() updatePaymentMethodDto: UpdatePaymentMethodDto,
-  ) {
-    return this.paymentMethodService.updatePaymentMethod(id, updatePaymentMethodDto);
+  update(@Param('id') id: string, @Body() updatePaymentMethodDto: UpdatePaymentMethodDto) {
+    return this.paymentMethodService.update(id, updatePaymentMethodDto);
+  }
+
+  @Delete(':id')
+  remove(@Param('id') id: string) {
+    return this.paymentMethodService.remove(id);
   }
 }
